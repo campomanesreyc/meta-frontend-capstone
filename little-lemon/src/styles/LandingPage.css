@@ -1,0 +1,137 @@
+.hero {
+  padding: 3%;
+  background-color: #495e57;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  margin: 0;
+  column-gap: 3%;
+}
+
+.hero h1 {
+  font-size: 6em;
+}
+
+.hero h2 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: larger;
+}
+
+.btn-reserve {
+  background-color: #f4ce14;
+  color: #333333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.3em;
+}
+
+.btn-reserve:hover {
+  background-color: #ee9972;
+  color: #333333;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: #f4ce14 2px solid;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  padding: 3%;
+}
+
+.highlights .grid-item:nth-child(3) {
+  grid-column: span 2;
+  display: flex;
+  gap: 3%;
+  padding-top: 2%;
+}
+
+.highlights h1 {
+  font-size: 3em;
+  color: #495e57;
+}
+
+.grid-item.button-container {
+  justify-self: end;
+  align-self: center;
+}
+
+.btn-menu {
+  background-color: #333333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  justify-self: end;
+  font-size: 1.3em;
+}
+
+.btn-menu:hover {
+  background-color: #ee9972;
+  color: #333333;
+}
+
+.highlights img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonials {
+  padding: 3%;
+  display: grid;
+  background-color: #495e57;
+  text-align: center;
+}
+
+.testimonials h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.testimonials .grid-item:nth-child(2) {
+  display: flex;
+  gap: 3%;
+  padding-top: 2%;
+}
+
+.about {
+  display: grid;
+  padding: 3%;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  column-gap: 3%;
+}
+
+.about h1 {
+  font-size: 3em;
+  color: #495e57;
+}
+
+.about h2 {
+  color: #333333;
+  font-size: 2em;
+}
+
+.about .grid-item:nth-child(2) {
+  text-align: center;
+}
+.about img {
+  max-width: 70%;
+  height: auto;
+  justify-self: center;
+}

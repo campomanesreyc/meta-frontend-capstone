@@ -1,0 +1,34 @@
+.footer {
+  display: grid;
+  background-color: #495e57;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  color: white;
+  padding: 3%;
+}
+
+.footer img {
+  max-width: 40%;
+}
+
+.footer .grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+.footer ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}

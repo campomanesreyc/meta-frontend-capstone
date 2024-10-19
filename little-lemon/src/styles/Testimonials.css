@@ -1,0 +1,30 @@
+.testimonial-card {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.testimonial-card img {
+  max-width: 60%;
+  border-radius: 50%;
+}
+
+.testimonial-card .review {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-style: italic;
+  font-size: 1.3em;
+  height: 150px;
+}
+
+.testimonial-card .name {
+  font-size: 1.5em;
+}
+
+.testimonial-card .rating {
+  color: #f4ce14;
+  font-size: 2rem;
+}
