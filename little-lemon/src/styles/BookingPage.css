@@ -1,0 +1,161 @@
+.booking .header {
+  font-size: 1.5em;
+  text-align: center;
+  color: #495e57;
+}
+
+.booking-section {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 5%;
+}
+
+.react-calendar {
+  width: 100% !important;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #495e57 !important;
+  color: white !important;
+}
+
+.select-time {
+  width: 100%;
+  padding: 1%;
+}
+
+.select-time:focus {
+  outline-color: #495e57;
+}
+
+.btn-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5%;
+}
+
+.btn-next,
+.btn-submit {
+  margin-top: 2%;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #495e57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-next:hover,
+.btn-submit:hover {
+  background-color: #ee9972;
+  color: #333333;
+  cursor: pointer;
+}
+
+.btn-next:disabled,
+.btn-submit:disabled {
+  background-color: #a4afab;
+  color: white;
+}
+
+.btn-back,
+.btn-edit {
+  margin-top: 2%;
+  padding: 10px 20px;
+  width: 100%;
+  border: #495e57 1px solid;
+  background-color: white;
+  color: #495e57;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn-back:hover,
+.btn-edit:hover {
+  background-color: #495e57;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+  padding-bottom: 4%;
+}
+
+.header-label:not(:first-child) {
+  padding-top: 10px;
+}
+
+.header-label p {
+  font-style: italic;
+}
+
+.partition {
+  background-color: #f4ce14;
+  height: 2px;
+}
+
+.form-div {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 10px;
+  margin-top: 2%;
+  align-items: center;
+}
+
+.form-div div:last-child {
+  color: red;
+}
+
+input,
+select,
+textarea {
+  padding: 1%;
+}
+
+.field-date,
+.field-request {
+  font-family: "Karla", sans-serif;
+}
+
+.details .label {
+  font-weight: bold;
+}
+
+.confirmation-div {
+  text-align: center;
+}
+
+.confirmation-div img {
+  max-width: 10%;
+  background-color: red;
+}
+
+.confirmation-div h1 {
+  font-size: 3em;
+}
+
+.confirmation-div span {
+  font-weight: bold;
+  line-height: 2;
+}
+
+.terms {
+  font-style: italic;
+}
+
+iframe {
+  width: 100%;
+  height: 50%;
+  border: 0;
+}
+
+.info-div {
+  margin-top: 2%;
+}

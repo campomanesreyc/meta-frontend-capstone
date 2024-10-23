@@ -34,7 +34,7 @@ function TestimonialsSection() {
     {
       id: 4,
       rating: 4,
-      custName: "Michael Thompson",
+      custName: "Michael Davis",
       photo: review4,
       review:
         "The food at Little Lemon is absolutely amazing. While the service could be a bit quicker, the quality of the meals more than makes up for it. Will be returning soon.",

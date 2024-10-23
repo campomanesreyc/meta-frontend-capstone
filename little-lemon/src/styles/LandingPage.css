@@ -16,10 +16,6 @@
   font-size: 3em;
 }
 
-.hero p {
-  font-size: larger;
-}
-
 .btn-reserve {
   background-color: #f4ce14;
   color: #333333;
@@ -133,5 +129,5 @@
 .about img {
   max-width: 70%;
   height: auto;
-  justify-self: center;
+  align-items: center;
 }

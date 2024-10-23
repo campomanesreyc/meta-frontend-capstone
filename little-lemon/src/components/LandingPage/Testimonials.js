@@ -3,8 +3,8 @@ import "../../styles/Testimonials.css";
 
 const Testimonials = ({ custName, photo, rating, review }) => {
   const MAX_RATING = 5;
-  const filledStars = "★".repeat(rating); // Create filled stars
-  const emptyStars = "☆".repeat(MAX_RATING - rating); // Create empty stars
+  const filledStars = "★".repeat(rating);
+  const emptyStars = "☆".repeat(MAX_RATING - rating);
 
   return (
     <div class="testimonial-card">

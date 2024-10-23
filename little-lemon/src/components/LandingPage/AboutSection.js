@@ -24,15 +24,6 @@ function AboutSection({ restName, country, year, founderName }) {
           ensuring that every meal is not only delicious but also
           environmentally responsible.
         </p>
-        <h2>Our Menu</h2>
-        <p>
-          Our menu features a delightful array of dishes, from traditional
-          favorites like our signature Grilled Vegetable Penne to innovative
-          seasonal specials. Whether you're in the mood for a light salad, a
-          hearty pasta dish, or a flavorful seafood option, there’s something
-          for everyone. We also cater to dietary preferences, offering
-          vegetarian, vegan, and gluten-free options.
-        </p>
       </div>
       <div className="grid-item">
         <img src={aboutPhoto} alt="about" />

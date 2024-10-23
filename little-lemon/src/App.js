@@ -3,9 +3,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage/Home";
+import BookingSection from "./components/BookingPage/BookingSection";
 import UnderConstruction from "./components/UnderConstruction";
 
 function App() {
+  const restName = "Little Lemon";
+  const country = "Chicago";
+  const address = "123 Citrus Avenue, Chicago, IL 60601";
+  const phoneNum = "(555) 123-4567";
+  const email = "info@littlelemon.com";
   return (
     <>
       <Router>
@@ -15,11 +21,11 @@ function App() {
             path="/"
             element={
               <LandingPage
-                restName="Little Lemon"
-                country="Chicago"
-                address="123 Citrus Avenue, Chicago, IL 60601"
-                phoneNum="(555) 123-4567"
-                email="info@littlelemon.com"
+                restName={restName}
+                country={country}
+                address={address}
+                phoneNum={phoneNum}
+                email={email}
               />
             }
           ></Route>
@@ -30,6 +36,18 @@ function App() {
           <Route
             path="/menu"
             element={<UnderConstruction message="Menu" />}
+          ></Route>
+          <Route
+            path="/reservations"
+            element={
+              <BookingSection
+                restName={restName}
+                country={country}
+                address={address}
+                phoneNum={phoneNum}
+                email={email}
+              />
+            }
           ></Route>
           <Route
             path="/order-online"
