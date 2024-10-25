@@ -12,6 +12,7 @@ This project is part of my **Meta Front-End Developer** Capstone course on Cours
 4. [Technologies Used](#technologies-used)
 5. [How to Run the Project](#how-to-run-the-project)
 6. [Video Demo](#video-demo)
+7. [Certificate](#certificate)
 
 ### Project Overview
 
@@ -76,3 +77,9 @@ npm start
 Watch the video demo of the reservation feature:
 
 [![Little Lemon Demo](https://img.youtube.com/vi/nWj085nFmmc/0.jpg)](https://www.youtube.com/watch?v=nWj085nFmmc)
+
+### Certificate
+
+View or download the certificate below.
+
+[![PDF Thumbnail](meta-frontend-developer-img.jpg)](meta-frontend-developer.pdf)
